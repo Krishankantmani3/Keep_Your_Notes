@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">keep your notes</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
+</resources>
+
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#F6EDD6"
+    android:layout_margin="10dp"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+     android:layout_width="match_parent"
+        android:layout_margin="20dp"
+     android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvdesc"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#070000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
